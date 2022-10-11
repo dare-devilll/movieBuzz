@@ -14,7 +14,10 @@
 
 body {
   font-family: var(--font-roboto);
-  background-color: #212426;
+  background: #0f0c29; 
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+
 }
 
 .app {
@@ -26,18 +29,11 @@ body {
   flex-direction: column;
 }
 
-.brand {
-  font-size: 3rem;
-  letter-spacing: 0.9px;
-  background: linear-gradient(
-    90deg,
-    rgba(249, 211, 180, 1) 0%,
-    rgba(249, 211, 180, 0) 100%
-  );
+.brand{
+  font-size: 62px;
+  background: -webkit-linear-gradient(#a5cbc2,#4f957f);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
-  width: fit-content;
 }
 
 .notification {
@@ -61,8 +57,7 @@ body {
   padding: 1.5rem 1.75rem;
   border-radius: 3rem;
   background: #1f2123;
-  -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
-  box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+  box-shadow: 5px 5px 7px #10151f, -5px -5px 7px #1a1927;
 }
 
 .search input {
@@ -74,7 +69,7 @@ body {
   padding-right: 1rem;
 
   outline: none;
-  color: #a1a1a1;
+  color: #1af8d3;
   background: #1f2123;
 }
 
@@ -153,7 +148,8 @@ body {
 
 .movie div:nth-of-type(3) {
   z-index: 2;
-  background-color: #343739;
+  background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,1) 100%);
   padding: 16px 24px 24px 24px;
 
   position: absolute;
